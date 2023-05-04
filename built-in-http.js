@@ -16,8 +16,7 @@ const server = http.createServer((req, res) => {
     firstName: "Bruce",
     lastName: "Wayne",
   };
-  res.end(JSON.stringify(superHero));
-   
+  res.end(JSON.stringify(superHero));   
 });
 */
 
